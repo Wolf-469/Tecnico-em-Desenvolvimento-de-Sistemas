@@ -1,0 +1,12 @@
+numeros = []
+soma = 0
+media = 0
+
+for i in range(8):
+    num = int(input("Número: "))
+    numeros.append(num)
+
+media = soma /8
+for numero in numeros: 
+    if(numero > media):
+        print(numero, ">",media)
